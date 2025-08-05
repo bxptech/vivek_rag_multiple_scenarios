@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+faiss-cpu
+pypdf
+unstructured
+openpyxl
+asynco 
+nest_asyncio
