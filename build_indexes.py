@@ -33,10 +33,12 @@ def load_all_docs_from_folder(folder_path):
             elif ext.endswith(".xlsx"):
                 docs.extend(UnstructuredExcelLoader(path).load())
             elif ext.endswith(".json"):
+                # Keep one logical JSON object together to avoid splitting related fields
                 docs.extend(JSONLoader(file_path=path, jq_schema=".[]", text_content=False).load())
         except Exception as e:
             print(f"⚠️ Could not load {file}: {e}")
     return docs
+
 def build_faiss_index(category, folder_path):
     print(f"📂 Building index for {category} from {folder_path}")
     docs = load_all_docs_from_folder(folder_path)
@@ -44,7 +46,8 @@ def build_faiss_index(category, folder_path):
         print(f"⚠️ No documents found in {folder_path}")
         return
 
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+    # Use bigger chunk size to keep related fields together
+    text_splitter = CharacterTextSplitter(chunk_size=2000, chunk_overlap=100)
     chunks = text_splitter.split_documents(docs)
 
     index_path = f"faiss_index_{category}"

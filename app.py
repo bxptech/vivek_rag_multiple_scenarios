@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
 
 # ---- FIX for Python 3.12+ async loop issue ----
 try:
@@ -32,13 +33,36 @@ CATEGORY_INDEXES = {
     "Online Reports": "faiss_index_online_reports"
 }
 
+# Updated prompt to ensure all results are returned
+prompt_template = """
+You are a helpful assistant. Based on the context from the retrieved documents,
+find ALL report names that contain ALL of the following fields: "Account Name", "Debit", and "Credit".
+List every matching report name without omitting any.
+If multiple matches exist, return them as a bullet list.
+Context:
+{context}
+
+Question:
+{question}
+
+Answer:
+"""
+PROMPT = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
+
 def query_category(category, query):
     index_path = CATEGORY_INDEXES[category]
     if not os.path.exists(index_path):
         return f"❌ No index found for {category}. Please build it first."
+
     db = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
-    retriever = db.as_retriever(search_kwargs={"k": 10})
-    qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+    retriever = db.as_retriever(search_kwargs={"k": 25})  # Increased recall
+
+    qa_chain = RetrievalQA.from_chain_type(
+        llm=llm,
+        retriever=retriever,
+        chain_type_kwargs={"prompt": PROMPT}
+    )
+
     return qa_chain.run(query)
 
 # ---- Streamlit UI ----
