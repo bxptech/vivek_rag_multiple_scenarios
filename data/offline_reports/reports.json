@@ -1,0 +1,1454 @@
+[{
+	"reportName" : "Daily Register",
+	"location" : "Registers  >  Daily Registers  >  Daily Register",
+	"reportFields" : ["Bill Date", "Purchase", "Sales", "Pur.Returns", "Sales Returns", "Receipts", "Payments" ]
+},
+{
+	"reportName" : "Daily Sales Register",
+	"location" : "Registers  >  Daily Registers  >  Daily Sales Register > Transaction-wise ",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Town", "Cash Sale", "Credit Sale", "Other Cash", "Other Bank", "Other Credit" ]
+},
+{
+	"reportName" : "Daily Sales Register",
+	"location" :"Registers  >  Daily Registers  >  Daily Sales Register  >  Item Wise",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Cash Sale", "Credit Sale", "Other Sales"]
+},
+{
+	"reportName" : "Daily Sales Register Summary",
+	"location" :"Registers  >  Daily Registers  >  Daily Sales Register Summary  >  Bill Wise",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "GST No", "Town", "Cash", "Credit", "Other Cash", "Other Bank", "Other Credit"]
+},
+{
+	"reportName" : "Daily Sales Register Summary",
+	"location" :"Registers  >  Daily Registers  >  Daily Sales Register Summary  >  Day Wise",
+	"reportFields" : ["Date", "Cash", "Credit", "Other Cash", "Other Bank", "Other Credit", "Totals"]
+},
+{
+	"reportName" : "Daily Sales Register Summary",
+	"location" : "Registers  >  Daily Registers  >  Daily Sales Register Summary  >  Item Wise",
+	"reportFields" : ["Item Name", "Cash", "Credit", "Others"]
+}, 
+{
+	"reportName" : "Sales Registers",
+	"location" : "Registers  >  Sales Registers  >  Sales Registers",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Town", "Cash Sale", "Credit Sale", "Other Cash", "Other Bank", "Other Credit"]
+},
+{
+	"reportName" : "Sales Register with items",
+	"location": "Registers  >  Sales Registers  >  Sales Register with items  >  Net Amount",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Item Name", "Town", "Quantity", "Cash Sale", "Credit Sale", "Other Sales"]
+},
+{
+	"reportName" : "Sales Register with items",
+	"location" :  "Registers  >  Sales Registers  >  Sales Register with items  >  Gross Amount",
+	"reportFields" : ["Bill No", "Bill Date","Party Name","Item Name", "Town", "Quantity", "Cash Sale", "Credit Sale", "Other Sales"]
+},
+{
+	"reportName" : "Sales Returns Register",
+	"location" :"Registers  >  Sales Registers  >  Sales Returns Register",
+	"reportFields" : ["Date/Bill No", "Account Name", "GSTIN NO", "GST %",	"Taxable Amt",	"Tax Amt",	"Total Amt", "Bill Total"]																
+},
+{
+	"reportName" : "Branch wise Sales Register",
+	"location" : "Registers  >  Sales Registers  >  Sales Returns  >  Branch wise Sales Register  >  Detail",	
+	"reportFields" : ["Bill Date", "Bill No", "Party Name",	"Cash Sale", "Credit Sale",	"Other Cash", "Other Bank",	"Other Credit"]																
+},
+{
+	"reportName" : "Branch wise Sales Register",
+	"location" : "Registers  >  Sales Registers  >  Sales Returns  >  Branch wise Sales Register  >  Summary",
+	"reportFields": ["Branch Name", "Cash Sale", "Credit Sale", "Other Cash", "Total"]																			
+},
+{
+	"reportName" : "Purchase Register",
+	"location": "Registers  >  Purchase Registers  >  Purchase Register  >  Net Amount",
+	"reportFields":	["Bill Date", "Bill No", "Party Name", "Tin No", "Town", "Cash Purchase", "Credit Purchase", "Other Cash", "Other Bank", "Other Credit"]														
+},
+{
+	"reportName" : "Purchase Register",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Register  >  Gross Amount",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Tin No", "Town", "Cash Purchase", "Credit Purchase", "Other Cash",	"Other Bank", "Other Credit"]													
+},
+{
+	"reportName" : "Purchase Register Summary",
+	"location" :" Registers  >  Purchase Registers  >  Purchase Register Summary  >  Bill wise",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Tin No", "Town", "Cash", "Credit", "Other Cash", "Other Bank",	"Other Credit"]														
+},
+{
+	"reportName" : "Purchase Register Summary",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Register Summary  >  Day wise",
+	"reportFields" : ["Dates", "Cash", "Credit", "Other Cash", "Other Bank", "Other Credit", "Totals"]
+},
+{
+	"reportName" : "Purchase Register Summary",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Register Summary  >  Item wise",
+	"reportFields" : ["Items", "Cash", "Credit", "Others", "Totals"]																		
+},
+{
+	"reportName" : "Purchase Register With Items",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Register With Items   >  Net Amount",      
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Item Name", "Qty", "Cash", "Credit", "Others"]																
+},
+{
+	"reportName" : "Purchase Register With Items",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Register With Items   >  Gross Amount",
+	"reportFields" : ["Bill No", "Bill Date", "arty Name", "Item Name", "Qty", "Cash", "Credit", "Others"]																
+},
+{
+	"reportName" : 	"Purchase Returns Register",
+	"location" : "Registers  >  Purchase Registers  >  Purchase Returns Register",
+	"reportFields" : ["Date/Bill No", "Account Name", "GSTIN NO", "GST %", "Taxable Amt", "Tax Amt", "Total Amt", "Bill Total"]																
+},
+{
+	"reportName" : "Branch wise Purchase Register",
+	"location" : "Registers  >  Purchase Registers  >  Branch wise Purchase Register  >  Detail",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Cash Sale", "Credit Sale", "Other Cash", "Other Bank", "Other Credit"]															
+},
+{
+	"reportName" : "Branch wise Purchase Register",
+	"location" : "Registers  >  Purchase Registers  >  Branch wise Purchase Register  >  Summary",
+	"reportFields" : ["Branch Name", "Cash Sale", "Credit Sale", "Other Cash", "Total"]																			
+},
+{
+	"reportName" : "Way bill register", 													
+	"location" : "Registers  > Way bill register",
+	"reportFields" : ["WayBill No", "WayBill Date", "Party Name", "Town", "RC Number", "Nature of Goods", "Bill No", "Net Amount", "Transport Name", "Cases"]
+},
+{
+    "reportName" : "Receipt Register",
+	"location" : "Registers  >  Financial Register  >  Receipt Register  >  Date wise",
+	"reportFields" : ["Tt Code", "Bill Serises", "Bill No", "Account Name-Town", "Gross Amount", "Discount", "Net Amount"]																	
+},
+{
+	"reportName" : "Receipt Register",
+	"location" : "Registers  >  Financial Register  >  Receipt Register  >  Account wise",
+	"reportFields" : ["Transaction Code", "Bill No", "Bill Date", "Narration", "Gross Amount", "Discount Amount", "Net Amount"]																	
+},
+{
+	"reportName" : "Payment Register",
+	"location" : "Registers  >  Financial Register  >  Payment Register  >  Date wise",
+	"reportFields" : ["Tt Code", "Bill Serises", "Bill No", "Account Name-Town", "Gross Amount", "Discount", "Net Amount"]																	
+},
+{
+	"reportName" : "Payment Register",
+	"location" : "Registers  >  Financial Register  >  Payment Register  >  Account wise",
+	"reportFields" : ["Transaction Code", "Bill No", "Bill Date", "Narration", "Gross Amount", "Discount", "Net Amount"]																
+},
+{
+	"reportName" :"Debit & Credit Note Register", 
+	"location" : "Registers  >  Financial Register  >  Debit & Credit Note Register  >  Debit Note",
+	"reportFields" : ["Note Date", "Series", "Note No", "From Account", "To Account", "Value"]																		
+},
+{
+	"reportName" :"Debit & Credit Note Register",
+	"location" : "Registers  >  Financial Register  >  Debit & Credit Note Register  >  Credit Note",
+	"reportFields" : ["Note Date", "Series", "Note No", "From Account", "To Account", "Value"]																		
+},
+{
+	"reportName" :"GST Input Register",
+	"location" : "Registers  >  GST Registers  >  GST Input Register  >  Bill Wise",
+	"reportFields" : ["Bill Date", "Bill No", "GST No", "Party Name", "Bill Gross", "CGST", "SGST", "IGST", "Total Tax", "Total Amount", "Expenses", "Inv.Tot.Amt"]												
+},
+{
+	"reportName" : "GST Input Register",
+	"location" : "Registers  >  GST Registers  >  GST Input Register  >  Day Wise", 
+	"reportFields" : ["Customer Name", "Sup.Bill No", "Item Name", "HSN Code", "Pack", "Qty", "Rate", "Total", "Discount", "Gross", "CGST", "SGST", "IGST"]												
+},
+{
+	"reportName" : "GST Input Register",
+	"location" : "Registers  >  GST Registers  >  GST Input Register  >  Item Wise",
+	"reportFields" : ["Sup.Bill Date|Sup.Bill No", "Gst No", "HSN Code", "Pack", "Qty", "Rate", "Total", "Discount", "Gross", "CGST", "SGST", "IGST"]											
+},
+{
+	"reportName" : "GST Input Register Format1",
+	"location" : "Registers  >  GST Registers  >  GST Input Register Format1",
+	"reportFields" : ["Bill Date", "Bill No", "GST No", "Party Name", "Rate", "Bill Gross", "CGST", "SGST", "IGST", "Total Tax", "Total Amount", "Expenses", "Inv.Tot.Amt"]											
+},
+{
+	"reportName" : "GST Output Register",
+	"location" : "Registers  >  GST Registers  >  GST Output Register  >  Bill Wise",
+	"reportFields": ["Bill Date", "Bill No", "GST No", "Party Name", "Rate", "Bill Gross", "CGST", "SGST", "IGST", "Total Tax", "Total Amount", "Expenses", "Inv.Tot.Amt"]											
+},
+{
+	"reportName" : "GST Output Register",
+	"location" : "Registers  >  GST Registers  >  GST Output Register  >  Date Wise",
+	"reportFields" : ["Customer Name", "Sup.Bill No", "Item Name", "HSN Code", "Pack", "Qty", "Rate", "Total", "Discount", "Gross", "CGST", "SGST", "IGST"]												
+},
+{
+	"reportName" : "GST Output Register",
+	"location" : "Registers  >  GST Registers  >  GST Output Register  >  Item Wise",
+	"reportFields" : ["Bill Date", "Bill No", "GST No", "HSN Code", "Pack", "Qty", "Rate", "Total", "Discount", "Gross", "CGST", "SGST", "IGST"]										
+},
+{
+	"reportName" : "GST Output Register Format1", 
+	"location" : "Registers  >  GST Registers  >  GST Output Register Format1",
+	"reportFields" : ["Bill Date", "Bill No", "GST No", "Party Name", "Rate", "Bill Gross", "CGST", "SGST", "IGST", "Total Tax", "Total Amount", "Expenses", "Inv.Tot.Amt"]										
+},
+{
+	"reportName" :"HSN Code Wise Reports"
+},
+{
+	"reportName" : "HSN Code Wise Summary",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary  >  Input wise",
+	"reportFields" : ["Hsn Code", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "CESS Amount", "Total Amount"]																
+},
+{
+	"reportName" : "HSN Code Wise Summary",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary  >  Output wise",
+	"reportFields" : ["Hsn Code", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "CESS Amount", "Total Amount"]															
+},
+{
+	"reportName" : "HSN Code Wise Summary % wise",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary % wise",
+	"reportFields" : ["Tax Rate", "HSN Code", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "Total Tax", "CESS Amount", "Total Amount"]													
+},
+{
+	"reportName" : "HSN Code Wise Summary Format1", 
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format1  >  Input wise",
+	"reportFields" : ["Hsn Code", "Group Name", "Gst rate", "Taxable Value", "Qty", "GST Amt", "Total Amt", "Net Amt", "Bill Date", "Bill No", "Cust Name", "Address", "GST No"]										
+},
+{
+	"reportName" : "HSN Code Wise Summary Format1",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format1  >  Output wise",
+	"reportFields" : ["Hsn Code", "Group Name", "Gst rate", "Taxable Value", "Qty", "GST Amt", "Total Amt", "Net Amt", "Bill Date", "Bill No", "Cust Name", "Address", "GST No"]									
+},
+{
+	"reportName" : "HSN Code Wise Summary Format2",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format2  >  Purchase",
+	"reportFields" : ["Tax Rate", "Hsn Code", "UQC", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "TOTAL TAX", "Cess", "Total Amount"]												
+},
+{
+	"reportName" : "HSN Code Wise Summary Format2",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format2  >  Sale",
+	"reportFields" : ["Tax Rate", "Hsn Code", "UQC", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "TOTAL TAX", "Cess", "Total Amount"]												
+},
+{
+	"reportName" : "HSN Code Wise Summary Format2",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format2  >  Purchase Return",
+	"reportFields" : ["Tax Rate", "Hsn Code", "UQC", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "TOTAL TAX", "Cess", "Total Amount"]												
+},
+{
+	"reportName" : "HSN Code Wise Summary Format2",
+	"location" : "Registers  >  GST Registers  >  HSN Code Wise Reports  >  HSN Code Wise Summary Format2  >  Sale Return",
+	"reportFields" : ["Tax Rate", "Hsn Code", "UQC", "Qty", "Taxable Amount", "CGST Amount", "SGST Amount", "IGST Amount", "TOTAL TAX", "Cess", "Total Amount"]													
+},
+{
+	"reportName" : "GST % wise Input Register"
+}, 
+{
+	"reportName" : "GST % wise Input Register Format 1",
+	"location" : "Registers  >  GST Registers  >  GST % wise Input Register  >  GST % wise Input Register Format 1",
+	"reportFields" : ["S No", "Date", "Total Qty", "Taxable Value", "CGST 2.5%   6%   9%   14%", "SGST 2.5%   6%   9%   14%", "IGST 2.5%   6%   9%   14%", "TOTAL"]															
+},
+{
+	"reportName" : "GST % wise Input Register Format 2", 
+	"location" : "Registers  >  GST Registers  >  GST % wise Input Register  >  GST % wise Input Register Format 2  >  Bill wise",
+	"reportFields" :["Date /Bill No", "Taxable Amt 0%", "Taxable Amt GST 5%", "Taxable Amt GST 12%", "Taxable Amt GST 18%", "Taxable Amt GST 28%", "Taxable Amt IGST 5%", "Taxable Amt IGST 12%", "Taxable Amt IGST 18%", "Taxable Amt IGST 28%", "TOTAL"]													
+}, 
+{
+	"reportName" : "GST % wise Input Register Format 2",
+	"location" : "Registers  >  GST Registers  >  GST % wise Input Register  >  GST % wise Input Register Format 2   >  Date wise",
+	"reportFields" : ["Date", "Taxable Amt 0%", "Taxable Amt GST 5%", "Taxable Amt GST 12%", "Taxable Amt GST 18%", "Taxable Amt GST 28%", "Taxable Amt IGST 5%", "Taxable Amt IGST 12%", "Taxable Amt IGST 18%", "Taxable Amt IGST 28%", "TOTAl"]
+},
+{
+	"reportName" : "GST % wise Output Register"
+},
+{
+	"reportName" : "GST % wise Output Register Format 1",
+	"location" : "Registers  >  GST Registers  >  GST % wise Output Register  >  GST % wise Output Register Format 1",
+	"reportFields" : ["S No", "Date", "Total Qty", "Taxable Value", "CGST 2.5%   6%   9%   14%", "SGST 2.5%   6%   9%   14%", "IGST 2.5%   6%   9%   14%", "TOTAL"]
+},
+{ 
+	"reportName" : "GST % wise Output Register Format 2",
+	"location" : "Registers  >  GST Registers  >  GST % wise Output Register  >  GST % wise Output Register Format 2  >  Bill wise",
+	"reportFields" : ["Date /Bill No", "Taxable Amt 0%", "Taxable Amt GST 5%", "Taxable Amt GST 12%", "Taxable Amt GST 18%", "Taxable Amt GST 28%", "Taxable Amt IGST 5%", "Taxable Amt IGST 12%", "Taxable Amt IGST 18%", "Taxable Amt IGST 28%", "TOTAL"]												
+},
+{
+	"reportName" : "GST % wise Output Register Format 2",
+	"location" : "Registers  >  GST Registers  >  GST % wise Output Register  >  GST % wise Output Register Format 2  >  Date wise",
+	"reportFields" : ["Date", "Taxable Amt 0%", "Taxable Amt GST 5%", "Taxable Amt GST 12%", "Taxable Amt GST 18%", "Taxable Amt GST 28%", "Taxable Amt IGST 5%", "Taxable Amt IGST 12%", "Taxable Amt IGST 18%", "Taxable Amt IGST 28%", "TOTAL"]												
+},
+{
+	"reportName" : "GSTR-3B",
+	"location" : "Registers  >  GST Registers  >  GSTR-3B  >  Summary",
+	"reportFields" : ["Particulars", "GST Rates", "Taxable Value", "IGST Tax Amount", "CGST Tax Amount", "SGST Tax Amount", "Total Tax Amount", "Total CESS Amount"]														
+},
+{
+	"reportName" : "GSTR-3B",
+	"location" : "Registers  >  GST Registers  >  GSTR-3B  >  GST % wise",
+	"reportFields" : ["Particulars", "GST Rates", "Taxable Value", "IGST Tax Amount", "CGST Tax Amount", "SGST Tax Amount", "Total Tax Amount", "Total CESS Amount"]														
+},
+{
+	"reportName" : "GSTR-3B",
+	"location"  : "Registers  >  GST Registers  >  GSTR-3B  >  GST % with Trans",
+	"reportFields" : ["Particulars", "GST Rates", "Taxable Value", "IGST Tax Amount", "CGST Tax Amount", "SGST Tax Amount", "Total Tax Amount", "Total CESS Amount"]															
+},
+{
+	"reportName" : "GSTR type wise HSN Code Summary",
+	"location" : "Registers  >  GST Registers  >  GSTR type wise HSN Code Summary",
+	"reportFields" : ["HSN Code", "Item Qty", "tax rate", "invoive value", "taxable value", "IGST Value", "CGST Value", "SGST Value"]														
+},
+{
+	"reportName" : "Stock & Sales Qty",
+	"location" : "Stock Reports  >  Stock & Sales Qty",
+	"reportFields" : ["Item Group/Item Name", "Opening Qty", "Recd.Qty", "Total STock", "Issued Qty", "Cls.Qty"]																
+},
+{
+	"reportName" : "Stock & Sales Qty and Value", 
+	"location" : "Stock Reports  >  Stock & Sales Qty and Value",
+	"reportFields" : ["Item Group/Item Name", "Opening Qty", "Recd.Qty", "Total STock", "Issued Qty", "Issued Free", "Bal Free", "Closing Qty"]															
+},
+{
+	"reportName" : "Stock & Sales (Consolidated) Value",
+	"location" : "Stock Reports  >  Stock & Sales (Consolidated) Value",
+	"reportFields" : ["Item Name", "Code", "Pack", "Opening Value", "Received Value", "Issued Value", "Closing Value"]																	
+},
+{
+	"reportName" : "Item Group wise Sales Register",
+	"location" : "Stock Reports  >  Item Group wise Sales Register", 
+	"reportFields" : ["Item Group Name", "Quantity", "Sale Amount"]																					
+},
+{
+	"reportName" : "Item Group wise Purchase Register",
+	"location" : "Stock Reports  >  Item Group wise Purchase Register",
+	"reportFields" : ["Item Group Name", "Quantity", "Sale Amount"]																				
+},
+{
+	"reportName" : "Item Group wise Cash & Credit Sale Summary",
+	"location" : "Stock Reports  >  Item Group wise Cash & Credit Sale Summary",
+	"reportFields" : ["Item Name", "Cash Qty", "Cash", "Credit Qty", "Credit", "Total Qty", "Total Amount"]																
+},
+{
+	"reportName" : "Batch wise Item Sales",
+	"location" : "Stock Reports  >  Batch wise Item Sales",
+	"reportFields" : ["Item Name", "Batch No", "Qty", "Total Amount"]																			
+},
+{
+	"reportName" : "Item Ledger day wise",
+	"location" : "Stock Reports  >  Item Ledger day wise", 
+	"reportFields" : ["Date", "Opening Bal", "Lot No", "RCEIVED FROM (SUPPLIER)", "Packing Date", "Expire Date", "Inv No & Date", "Qty Received", "Total", "Sold", "Closing Balance"]											
+},
+{
+	"reportName" : "Category wise Item Ledger (Form-N)",
+	"location" : "Stock Reports  >  Category wise Item Ledger (Form-N)",
+	"reportFields" : ["Date", "Opening Stock", "Receipts during the Day", "Total", "Sales During The", "Closing Balanace", "Remarks Mention source of supply with Bill No & Date", "S No of first and last cash/credit memo issued"]													
+},
+{
+	"reportName" : "Stock Register (Form-B)", 
+	"location" : "Stock Reports  >  Stock Register (Form-B)", 
+	"reportFields" : ["S No", "Date", "Name of manufacturer from whom Received", "Name of the supplier Distributor if any thought whom received", "Batch No", "Date of Manufacturer", "Date of Expiry", "Invoive details.No dare and Quantity", "Quantity BF.if any | Received | Total | Sales | Balance", "Bill Numbers", "Remarks"]												
+},
+{
+	"reportName" : "Stock Register Appendix-B",
+	"location" : "Stock Reports  >  Stock Register Appendix-B",
+	"reportFields" : ["Item Name", "Group Name", "Sup Name", "Tech Name", "Batch No", "Manf Date", "Expiry Date", "Sup Bill"]														
+},
+{
+	"reportName" : "Stock Register (Form-D)",
+	"location" : "Stock Reports  >  Stock Register (Form-D)",
+	"reportFields" : ["S No", "Comapny Name", "Crop", "variety", "class of seed", "Opening Stock", "Quentity purchased", "Quanatity imported from outside", "Total", "Total Quantity Sold", "Quantity exported Outside", "Closing stock on the last day"]									
+},
+{
+	"reportName" : "Category and Expiry wise Stock Summary",
+	"location" : "Stock Reports  >  Category and Expiry wise Stock Summary  >  Non-Expiry stock",
+	"reportFields" : ["Item Name", "Item Pack", "Qty", "Rate", "Amount"]																		
+},
+{
+	"reportName" : "Category and Expiry wise Stock Summary",
+	"location" : "Stock Reports  >  Category and Expiry wise Stock Summary  >  Expiry stock",
+	"reportFields" : ["Item Name", "Item Pack", "Qty", "Rate", "Amount"]																	
+},
+{
+	"reportName" : "Category wise Stock Qty & Value",
+	"location" : "Stock Reports  >  Category wise Stock Qty & Value",
+	"reportFields" : ["Item Name", "Pack", "Opening Qty", "Opening Value", "Pur.Qty", "Pur.Value", "Total Qty", "Sale Qty", "Sale Value", "Cls Qty", "Cls Value"]											
+},
+{
+	"reportName" : "Category wise item Sales Report",
+	"location" : "Stock Reports  >  Category wise item Sales Report",
+	"reportFields" : ["Item Name", "Qty", "Total Amount"]																			
+},
+{
+	"reportName" : "Category wise item Closing Stock",
+	"location" : "Stock Reports  >  Category wise item Closing Stock",
+	"reportFields" : ["S No", "Name of the Manufacturer", "Name of Marketers", "Product", "Manf Date", "Expiry Date", "Pack", "Bal Qty"]															
+},
+{
+	"reportName" : "Opening Stock Item wise",
+	"location" : "Stock Reports  >  Opening Stock Item wise", 
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Batch No", "Expiry Date", "Manf Date", "Qty", "Rate", "Amount"]															
+},
+{
+	"reportName" : "Category wise Opening Stock",
+	"location" : "Stock Reports  >  Category wise Opening Stock", 
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Batch No", "Expiry Date", "Manf Date", "Qty", "Rate", "Amount"]														
+},
+{
+	"reportName" : "Opening Stock GST % wise", 
+	"location" : "Stock Reports  >  Opening Stock GST % wise",
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Batch No", "Expiry Date", "Manf Date", "Qty", "Rate", "Amount"]														
+},
+{
+	"reportName" : "Closing Stock", 
+	"location" : "Stock Reports  >  Closing Stock  >  Company wise closing Stock Value",
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Qty", "Rate", "Amount"]																		
+},
+{
+	"reportName" : "Closing Stock",
+	"location" : "Stock Reports  >  Closing Stock  >  Without Values",
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Qty"]																					
+},
+{
+	"reportName" : "Closing Stock GST % wise", 
+	"location" : "Stock Reports  >  Closing Stock GST % wise  >  Company wise closing Stock Value",
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Qty", "Rate", "Amount"]																		
+},
+{
+	"reportName" : "Closing Stock GST % wise",
+	"location" : "Stock Reports  >  Closing Stock GST % wise  >  Without Value",
+	"reportFields" : ["Item Group/Item Name", "Item Pack", "Qty"]																					
+},
+{
+	"reportName" :"Closing Stock Batch wise",
+	"location" : "Stock Reports  >  Closing Stock Batch wise  >  Non expiry stock",
+	"reportFields" : ["Item Name/Code", "Pack", "Batch No", "Expiry Date", "Quantity", "Free Qty", "Total Qty", "Net Rate", "Age", "MRP", "Closing Value"]											
+},
+{
+	"reportName" :"Closing Stock Batch wise",
+	"location" : "Stock Reports  >  Closing Stock Batch wise  > expiry stock",
+	"reportFields" : ["Item Name/Code", "Pack", "Batch No", "Expiry Date", "Quantity", "Free Qty", "Total Qty", "Net Rate", "Age", "MRP", "Closing Value"]													
+},
+{
+	"reportName" :"Closing Stock Batch wise",
+	"location" : "Stock Reports  >  Closing Stock Batch wise  >  Company wise Closing stock value  >  Non expiry stock", 
+	"reportFields" : ["Company Name", "Value"]																					
+},
+{
+	"reportName" :"Closing Stock Batch wise",
+	"location"  : "Stock Reports  >  Closing Stock Batch wise  >  Company wise Closing stock value  >  expiry stock",
+	"reportFields" : ["Company Name", "Value"]																				
+},
+{
+	"reportName" :"Closing Stock Batch wise Format 1",
+	"location" : "Stock Reports  >  Closing Stock Batch wise Format 1",
+	"reportFields" : ["Item Name/Code", "Pack", "Batch No", "HSN Code", "Manf Date", "Expiry Date", "Quantity", "Net Rate", "Taxable Value", "GST %", "Cgst Amt", "Sgst Amt", "Total Value"]									
+},
+{
+	"reportName" :"Single Item Stock Ledger", 
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Name  >  Purchase",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]									
+
+},
+{
+	"reportName" :"Single Item Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Name  >  Sale",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]									
+},
+{
+	"reportName" :"Single Item Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Name  >  Both",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Ph No","Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Single Item Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Code  >  Purchase",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Single Item Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Code  >  Sale",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Single Item Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Single Item  >  Code  >  Both",
+	"reportFields": ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Ledger  >  Purchase",
+	"reportFields" : ["Bill No", "Party Name", "Recd Qty", "Recd Free"]																		
+},
+{
+	"reportName" : "Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Ledger  >  Sale",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Issued Qty", "Issued Free"]																	
+},
+{
+	"reportName" : "Stock Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Ledger  >  Both",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Issued Qty", "Running Balanace"]														
+},
+{
+	"reportName" : "Stock Ledger with Stock Points",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Ledger with Stock Points",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Issued Qty", "Running Balanace"]													
+},
+{
+	"reportName" : "Batch Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Batch Ledger  >  Name",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Batch Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Batch Ledger  >  Code",
+	"reportFields": ["Bill Date", "Bill No", "Party Name", "Ph No", "Village", "Recd Free", "Issued Free", "Bal.Free", "Recd Qty", "Pur. Rate", "Issued Qty", "Sales Rate", "Running Balanace"]										
+},
+{
+	"reportName" : "Item Sale Summary Date wise",
+	"location" : "Stock Reports  >  Stock Ledger  >  Item Sale Summary Date wise",
+	"reportFields" : ["Item Name/Bill Date", "Item Pack", "Qty", "Total Amount"]																			
+},
+{
+	"reportName" : "Stock Points Stock Reports",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Points Stock Reports",
+	"reportFields" : ["Item Name", "Main Store", "Total Qty", "Value"]															
+},
+{
+	"reportName" : "Stock point Ledger",
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock point Ledger",
+	"reportFields" : ["Date", "Invoice No", "Item Name", "From ", "To", "Batch No", "Qty", "Rate", "Net Amount"]														
+},
+{
+	"reportName" : "Group Vs Customer Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Group Vs Customer Details  >  Group Vs Customer",
+	"reportFields" : ["Item Name/Account Name", "Ph No", "Town", "Bill No", "Batch No", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]												
+},
+{
+	"reportName" : "Group Vs Customer Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Group Vs Customer Details  >  Customer Vs Group",
+	"reportFields" : ["Account Name/Item Name", "Town", "Bill No", "Batch No", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]												
+},
+{
+	"reportName" : "Group Vs Supplier Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Group Vs Supplier Details  >  Group Vs Supplier",
+	"reportFields" : ["Item Name/Account Name", "Ph No", "Town", "Bill No", "Batch No", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]												
+},
+{
+	"reportName" : "Group Vs Supplier Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Group Vs Supplier Details  >  Supplier Vs Group",
+	"reportFields" : ["Account Name/Item Name", "Town", "Bill No", "Batch No", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]													
+
+},
+{
+	"reportName" : "Supplier Vs Items Purchase and Return Details (New)",
+	"location" : "Stock Reports  >  Stock Ledger  >  Supplier Vs Items Purchase and Return Details (New)",
+	"reportFields" : ["Item Name", "P.rate", "Inv. No", "Inv.Date", "Qty", "Amount"]																	
+},
+{
+	"reportName" : "Farmer wise Item Sales Register",
+	"location" : "Stock Reports  >  Stock Ledger  >  Farmer wise Item Sales Register",
+	"reportFields" : ["Date", "Farmer Name", "Father Name", "Contact No", "Village", "Mandal", "Crop", "Varierty", "Lot No", "Name Of the Comapany", "Qty sold", "Invoice No"]											
+},
+{
+	"reportName" : "Fast Moving Stock",
+	"location" : "Stock Reports  >  Stock Ledger  >  Fast Moving Stock   >  Value",
+	"reportFields" : ["Item Name", "Pack", "SaleQty", "Sale Value", "Percentage"]																		
+},
+{
+	"reportName" : "Fast Moving Stock",
+	"location" : "Stock Reports  >  Stock Ledger  >  Fast Moving Stock   >  Quantity",
+	"reportFields" : ["Item Name", "Pack", "SaleQty", "Sale Value", "Percentage"]																	
+},
+{
+	"reportName" : "Slow Moving Stock",
+	"location" : "Stock Reports  >  Stock Ledger  >  Slow Moving Stock   >  Value",
+	"reportFields" : ["Item Name", "Pack", "SaleQty", "Sale Value", "Percentage"]																		
+},
+{
+	"reportName" : "Slow Moving Stock",
+	"location" : "Stock Reports  >  Stock Ledger  >  Slow Moving Stock   >  Quantity",
+	"reportFields" : ["Item Name", "Pack", "SaleQty", "Sale Value", "Percentage"]																		
+},
+{
+	"reportName" : "Stock Ledger date wise", 
+	"location" : "Stock Reports  >  Stock Ledger  >  Stock Ledger date wise",
+	"reportFields" : ["Bill Date", "Party Name", "Sup Bill No", "Open Qty", "Recd Qty", "Recd Free", "Stock Qty", "Issued Qty", "Balance Qty"]														
+},
+{
+	"reportName" : "Technical name wise Stock report Summary", 
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise Stock report Summary  >  Stock",
+	"reportFields" : ["Technical Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																		
+},
+{
+	"reportName" : "Technical name wise Stock report Summary",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise Stock report Summary  >  All",
+	"reportFields" : ["Technical Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																		
+},
+{
+	"reportName" : "Technical name wise Stock report Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise Stock report Details  >  Stock",
+	"reportFields" : ["Item Group/Item Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																
+},
+{
+	"reportName" : "Technical name wise Stock report Details",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise Stock report Details  >  All",
+	"reportFields" :["Item Group/Item Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																		
+},
+{
+	"reportName" : "Technical name wise with Item Qty",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise with Item Qty  >  Stock",
+	"reportFields" : ["Item Group/Item Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																		
+},
+{
+	"reportName" : "Technical name wise with Item Qty",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise with Item Qty  >  All",
+	"reportFields" : ["Item Group/Item Name", "Opening Qty", "Recd Qty", "Total Stock", "Issued Qty", "Cls Qty"]																	
+},
+{
+	"reportName" : "Technical name wise with Sale Qty",
+	"location" : "Stock Reports  >  Stock Ledger  >  Technical name wise with Sale Qty  >  Stock",
+	"reportFields" : ["Item Group/Item Name", "Issued Qty"]																					
+},
+{
+	"reportName" : "Technical name wise with Sale Qty",
+	"location"  : "Stock Reports  >  Stock Ledger  >  Technical name wise with Sale Qty  >  All",
+	"reportFields" :["Item Group/Item Name", "Issued Qty"]																					
+},
+{
+	"reportName" : "Transaction wise Sale Report",
+	"location" : "Stock Reports  >  Stock Ledger  >  Transaction wise Sale Report",
+	"reportFields" : ["Item Name", "Item Pack", "Item Rate", "Qty", "Value"]																		
+},
+{
+	"reportName" : "Item Price List", 
+	"location" : "Stock Reports  >  Item Price List",
+	"reportFields" : ["Group/Item Name", "Item Code", "MRP", "Discount", "SRate", "GST"]																	
+},
+{
+	"reportName" : "Delivery Challan Details",
+	"location" : "Stock Reports  >  Delivery Challan Details  >  Inward  >  Completed",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Item Pack", "Qty", "Rate", "Net Amount"]														
+},
+{
+	"reportName" : "Delivery Challan Details",
+	"location" : "Stock Reports  >  Delivery Challan Details  >  Inward  >  Pending",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Item Pack", "Qty", "Rate", "Net Amount"]																
+},
+{
+	"reportName" : "Delivery Challan Details",
+	"location" : "Stock Reports  >  Delivery Challan Details  >  Outward  >  Pending",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Item Pack", "Qty", "Rate", "Net Amount"]
+},
+{
+	"reportName" : "Delivery Challan Details",
+	"location" : "Stock Reports  >  Delivery Challan Details  >  Outward  >  Completed",
+	"reportFields" : ["Bill Date", "Bill No", "Party Name", "Item Pack", "Qty", "Rate", "Net Amount"]															
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding bills  >  Area wise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Bill No", "Amount ", "Adjusted", "Balance", "Intreset", "Age"]												
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location"  : "Stock Reports  >  Receivables  >  Outstanding bills  >  Area wise  >  Summary",
+	"reportFields" : ["Account Name", "Town", "Amount", "Adjusted", "Balance", "Interest", "Age"]														
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding bills  >  Party wise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Bill No", "Amount", "Adjusted", "Balance", "Intreset", "Age"]													
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding bills  >  Party wise  >  Summary",
+	"reportFields" : ["Account Name", "Mobile", "Town", "Amount", "Adjusted", "Balance", "Intreset", "Age"]																
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding bills  >  Salesmen wise  >  Detailed",
+	"reportFields" : ["No Sales men was selected"]																							
+},
+{
+	"reportName" : "Receivables Outstanding bills",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding bills  >  Salesmen wise  >  Summary",
+	"reportFields" : ["No Sales men was selected"]																						
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Areawise  >  Summary",
+	"reportFields" : ["Account Name", "Town", "Amount", "Adjusted", "Balance", "Interest", "Age"]																
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Areawise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Amount ", "Adjusted", "Balance", "Intreset", "Age"]														
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Party wise  >  Summary",
+	"reportFields" : ["Account Name", "Mobile", "Town", "Amount", "Adjusted", "Balance", "Intreset", "Age"]															
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Party wise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Amount", "Adjusted", "Balance", "Intreset", "Age"]														
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Salesmen wise  >  Summary",
+	"reportFields" : ["No Sales men was selected"]																						
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Salesmen wise  >  Detailed",
+	"reportFields" : ["No Sales men was selected"]																						
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Areawise  >  Summary",
+	"reportFields" : ["Account Name", "Town", "Amount", "Adjusted", "Balance", "Interest", "Age"]																
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Areawise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Amount", "Adjusted", "Balance", "Intreset", "Age"]														
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Party wise  >  Summary",
+	"reportFields" : ["Account Name", "Mobile", "Town", "Amount", "Adjusted", "Balance", "Intreset", "Age"]															
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Party wise  >  Detailed",
+	"reportFields" : ["Town", "Mobile No", "Bill Date", "Bill Due Date", "Amount", "Adjusted", "Balance", "Intreset", "Age"]														
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Salesmen wise  >  Summary",
+	"reportFields" : ["No Sales men was selected"]																							
+},
+{
+	"reportName" : "Receivables Collection History",
+	"location" : "Stock Reports  >  Receivables  >  Collection History   >  Salesmen wise  >  Detailed",
+	"reportFields" : ["No Sales men was selected"]																							
+},
+{
+	"reportName" : "Receivables Outstanding Report (New)",
+	"location" : "Stock Reports  >  Receivables  >  Outstanding Report (New)",
+	"reportFields" : ["Account Name", "Area Name", "Total Sales", "Outstanding Amount", "Balance.0 To 30 days | 31 To 60 days | 61 To 90 days | >90 days", "Last Trans Amount", "Last Trans Date"]																	
+},
+{
+	"reportName" : "Area wise Customers Sales Summary (New)",
+	"location" : "Stock Reports  >  Receivables  >  Area wise Customers Sales Summary (New)",
+	"reportFields" : ["S No", "Account Name", "Last Rec Date", "Receipt Value", "Qty", "Sales Value"]																	
+},
+{
+	"reportName" : "Payables  Outstanding Bills",
+	"location" : "Stock Reports  >  Payables  >  Outstanding Bills  >  Party wise  >  Detailed",
+	"reportFields" : ["Town", "Bill Date", "Bill Due Date", "Amount", "Adjusted", "Balance", "Intreset", "Age"]															
+},
+{
+	"reportName" : "Payables  Outstanding Bills",
+	"location" : "Stock Reports  >  Payables  >  Outstanding Bills  >  Party wise  >  Summary",
+	"reportFields" : ["Account Name", "Town", "Amount", "Adjusted", "Balance", "Intreset", "Age"]																
+},
+{
+	"reportName" : "Payables Collection history",
+	"location" : "Stock Reports  >  Payables  >  Collection history  >  Detailed",
+	"reportFields" : ["Town", "Bill Date", "Bill Due Date", "Amount ", "Adjusted", "Balance", "Intreset", "Age"]														
+},
+{
+	"reportName" : "Payables Collection history",
+	"location" : "Stock Reports  >  Payables  >  Collection history  >  Summmary",
+	"reportFields" : ["Account Name", "Town", "Amount", "Adjusted", "Balance", "Intreset", "Age"]																
+},
+{
+	"reportName" : "Item wise Trading Accounts",
+	"location" : "Stock Reports  >  Item wise Trading Accounts  >  Item Wise",
+	"reportFields" : ["Account Name", "Quantity", "Amount", "Account Name", "Quantity", "Amount"]																	
+},
+{
+	"reportName" : "Item wise Trading Accounts",
+	"location"  : "Stock Reports  >  Item wise Trading Accounts  >  Group Wise",
+	"reportFields" : ["Account Name", "Quantity", "Amount", "Account Name", "Quantity", "Amount"]																	
+},
+{
+	"reportName" : "Day Book", 
+	"location" : "Financial Reports  >  Day Book  >  Format 1",
+	"reportFields" : ["Cash Receipts", "Credit Amount", "Account/ Narration", "Debit Amount", "Cash payment", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Day Book",
+	"location" : "Financial Reports  >  Day Book  >  Format 2",
+	"reportFields" : ["Bill date", "Cash Receipts", "Credit Amount", "Account Name ", "Narration", "Debit Amount", "Cash Payment"]																	
+},
+{
+	"reportName" : "Single Account Ledger",
+	"location" : "Financial Reports  >  Ledger  >  Single Account Ledger  >  Name",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Qty", "Debit", "Credit", "Runn Bal", "Sign"]															
+},
+{
+	"reportName" : "Single Account Ledger",
+	"location"  : "Financial Reports  >  Ledger  >  Single Account Ledger  >  Code",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Qty", "Debit", "Credit", "Runn Bal", "Sign"]															
+},
+{
+	"reportName" : "Ledger",
+	"location" : "Financial Reports  >  Ledger  >  Ledger  >  Account",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Ledger",
+	"location" : "Financial Reports  >  Ledger  >  Ledger  >  Type",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																	
+},
+{
+	"reportName" : "Ledger",
+	"location"  : "Financial Reports  >  Ledger  >  Ledger  >  Group",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																	
+},
+{
+	"reportName" : "Single Account Ledger With Items",
+	"location" : "Financial Reports  >  Ledger  >  Single Account Ledger With Items",
+	"reportFields" : ["Customer Name", "Bill Date", "Item Name", "Bill No", "Indent No", "Quantity", "Rate", "Amount", "Bill Amount", "Closing Bal", "Sign", "Village", "No of items"]										
+},
+{
+	"reportName" : "Single Account Ledger All Year Consolidated",
+	"location" : "Financial Reports  >  Ledger  >  Single Account Ledger All Year Consolidated  >  Name",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Single Account Ledger All Year Consolidated",
+	"location" : "Financial Reports  >  Ledger  >  Single Account Ledger All Year Consolidated  >  Code",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Day Book",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Day Book",
+	"reportFields" : ["Cash Receipts", "Credit Amount", "Account/ Narration", "Debit Amount", "Cash payment", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Single Account Ledger (New)",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Single Account Ledger (New)  >  Name", 
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																
+},
+{
+	"reportName" : "Single Account Ledger (New)",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Single Account Ledger (New)  >  Code",
+	"reportFields" : ["Bill date", "Sub Account", "Narration", "Debit", "Credit", "RunnBal", "Sign"]																	
+},
+{
+	"reportName" : "Trail Balance",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Trail Balance  >  Group  >  Summary",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Trail Balance",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Trail Balance  >  Group  >  Detailed",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																					
+},
+{
+	"reportName" : "Trail Balance",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Trail Balance  >  Alphabetical  >  Summary",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																					
+},
+{
+	"reportName" : "Trail Balance",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Trail Balance  >  Alphabetical  >  Detailed",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																						
+},
+{
+	"reportName" : "Trading & P&L Accounts",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Trading & P&L Accounts",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]																				
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Balance Sheet  >  Summary  >  Horizontal",
+	"reportFields" : ["Liabilities", "Amount", "Assests", "Amount"]																			
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Balance Sheet  >  Summary  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Balance Sheet  >  Detailed  >  Horizontal",
+	"reportFields" : ["Liabilities", "Amount", "Assests", "Amount"]																			
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Balance Sheet  >  Detailed  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																					
+},
+{
+	"reportName" : "Bank Book",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Bank Book",
+	"reportFields" : ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Debit", "Credit", "Runn Bal", "Sign"]															
+},
+{
+	"reportName" : "Cash book",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Cash book",
+	"reportFields" : ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Receipts", "Payments", "Runn Bal", "Sign"]															
+},
+{
+	"reportName" : "Journal Book",
+	"location" : "Financial Reports  >  Old Format for A/C Reports  >  Journal Book",
+	"reportFields" :  ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Debit", "Credit"]
+},
+{
+	"reportName" : "Trail Balance as on date (new)", 
+	"location" : "Financial Reports  >  Trail Balance  >  Trail Balance as on date (new)  >  Group  >  Summary",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Trail Balance as on date (new)",
+	"location" : "Financial Reports  >  Trail Balance  >  Trail Balance as on date (new)  >  Group  >  Detailed",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Trail Balance as on date (new)",
+	"location" : "Financial Reports  >  Trail Balance  >  Trail Balance as on date (new)  >  Alphabetical  >  Summary",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Trail Balance as on date (new)",
+	"location" : "Financial Reports  >  Trail Balance  >  Trail Balance as on date (new)  >  Alphabetical  >  Detailed",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Trail balance Between dates",
+	"location" : "Financial Reports  >  Trail Balance  >  Trail balance Between dates  >  Summary",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Trail balance Between dates",
+	"location"  : "Financial Reports  >  Trail Balance  >  Trail balance Between dates  >  Detailed",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Trading Account as on Date",
+	"location" : "Financial Reports  >  Trading Account  >  Trading Account as on Date  >  Horizontal",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]																			
+},
+{
+	"reportName" : "Trading Account as on Date",
+	"location" : "Financial Reports  >  Trading Account  >  Trading Account as on Date  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "Trading Account between Dates",
+	"location" : "Financial Reports  >  Trading Account  >  Trading Account between Dates  >  Horizontal",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]																	
+},
+{
+	"reportName" : "Trading Account between Dates",
+	"location" : "Financial Reports  >  Trading Account  >  Trading Account between Dates  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Profit & Loss A/C as on date",
+	"location" : "Financial Reports  >  Profit & loss A/C  >  Profit & Loss A/C as on date  >  Horizontal",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]
+},
+{
+	"reportName" : "Profit & Loss A/C as on date",
+	"location"  : "Financial Reports  >  Profit & loss A/C  >  Profit & Loss A/C as on date  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Profit & Loss A/C between Dates",
+	"location" : "Financial Reports  >  Profit & loss A/C  >  Profit & Loss A/C between Dates  >  Horizontal",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]																		
+},
+{
+	"reportName" : "Profit & Loss A/C between Dates",
+	"location" : "Financial Reports  >  Profit & loss A/C  >  Profit & Loss A/C between Dates  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Trading & Profit & Loss Accounts",
+	"location" : "Financial Reports  >  Trading & Profit & Loss Accounts",
+	"reportFields" : ["Particulars", "Amount", "Particulars", "Amount"]																	
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Balance Sheet  >  Summary  >  Horizontal",
+	"reportFields" : ["Liabilities", "Amount", "Assests", "Amount"]	
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Balance Sheet  >  Summary  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																					
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Balance Sheet  >  Detailed  >  Horizontal",
+	"reportFields" : ["Liabilities", "Amount", "Assests", "Amount"]																				
+
+},
+{
+	"reportName" : "Balance Sheet",
+	"location" : "Financial Reports  >  Balance Sheet  >  Detailed  >  Vertical",
+	"reportFields" : ["Account Name", "Debit", "Credit"]
+},
+{
+	"reportName" : "Cash Book",
+	"location" : "Financial Reports  >  Cash Book",
+	"reportFields" : ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Receipts", "Payments", "Runn Bal", "Sign"]															
+},
+{
+	"reportName" : "Journal Book",
+	"location" : "Financial Reports  >  Journal Book",
+	"reportFields" : ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Debit", "Credit"]																
+},
+{
+	"reportName" : "Bank Book",
+	"location" : "Financial Reports  >  Bank Book",
+	"reportFields" : ["Bill date", "Bill No", "T type", "Account Name", "Narration", "Debit", "Credit", "Runn Bal", "Sign"]														
+},
+{
+	"reportName" : "Debtors List",
+	"location" : "Financial Reports  >  Debtors List  >  Format 1",
+	"reportFields" : ["Account Name", "Town", "Act Type", "Amount", "Mobile", "Add1"]																	
+},
+{
+	"reportName" : "Debtors List",
+	"location" : "Financial Reports  >  Debtors List  >  Format 2",
+	"reportFields" : ["Account Name", "Town", "Act Type", "Amount", "Mobile", "Add1"]	
+},
+{
+	"reportName" : "Creditors List",
+	"location" : "Financial Reports  >  Creditors List  >  Format 1",
+	"reportFields" : ["Account Name", "Town", "Act Type", "Amount", "Mobile"]																
+},
+{
+	"reportName" : "Creditors List",
+	"location" : "Financial Reports  >  Creditors List  >  Format 2",
+	"reportFields" : ["Account Name", "Town", "Act Type", "Amount", "Mobile"]																	
+},
+{
+	"reportName" : "Narration wise Search",
+	"location" : "Financial Reports  >  Account Reports  >  Narration wise Search",
+	"reportFields" : ["Bill date", "Bill No", "Account Name", "Town", "Narration", "NetAmt"]																	
+},
+{
+	"reportName" : "Account wise Narration Search", 
+	"location" : "Financial Reports  >  Account Reports  >  Account wise Narration Search",
+	"reportFields" : ["Bill date", "Bill No", "Narration", "Town", "Transation Name", "NetAmt"]																		
+},
+{
+	"reportName" : "Interest Calculation",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation  >  Debit Balance Only",
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]											
+},
+{
+	"reportName" : "Interest Calculation",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation  >  Credit Balance Only", 
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]
+},
+{
+	"reportName" : "Interest Calculation",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation  >  Debit & Credit Balances",
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]
+},
+{
+	"reportName" : "Interest Calculation Days Wise",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation Days Wise  >  Debit Balance Only",
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]
+},
+{
+	"reportName" : "Interest Calculation Days Wise",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation Days wise  >  Credit Balance Only",
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]											
+
+},
+{
+	"reportName" : "Interest Calculation Days Wise",
+	"location" : "Financial Reports  >  Special Reports  >  Interest Calculation days wise  >  Debit & Credit Balances",
+	"reportFields" : ["Account Name", "Bill Date", "Bill No", "T type", "Narration", "Debit", "Credit", "Runn Bal", "Sign", "Days", "Interest Dr", "Interest Cr"]
+},
+{
+	"reportName" : "Bill to Bill Adjustment",
+	"location" : "Financial Reports  >  Special Reports  >  Bill to Bill Adjustment  >  Bill to Receipt  >  Customer",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Bill Amount", "Adjusted Amount", "Balanace Amt", "Rect No", "Rect Date", "Rect Adj Amt", "Rect Amt", "Narriation", "Disc Amt"]											
+},
+{
+	"reportName" : "Bill to Bill Adjustment",
+	"location" : "Financial Reports  >  Special Reports  >  Bill to Bill Adjustment  >  Bill to Receipt  >  Supplier",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Bill Amount", "Adjusted Amount", "Balanace Amt", "Rect No", "Rect Date", "Rect Adj Amt", "Rect Amt", "Narriation"]										
+},
+{
+	"reportName" : "Bill to Bill Adjustment",
+	"location" : "Financial Reports  >  Special Reports  >  Bill to Bill Adjustment  >  Receipt to Bill  >  Customer",
+	"reportFields" : ["Rect. No", "Rect. Date", "Rect.Amt", "Narration", "Party Name", "Bill No", "Bill Date", "Adjusted Amt", "Bill Amount"]														
+},
+{
+	"reportName" : "Bill to Bill Adjustment",
+	"location" : "Financial Reports  >  Special Reports  >  Bill to Bill Adjustment  >  Receipt to Bill  >  Supplier",
+	"reportFields" : ["Rect. No", "Rect. Date", "Rect.Amt", "Narration", "Party Name", "Bill No", "Bill Date", "Adjusted Amt", "Bill Amount"]
+},
+{
+	"reportName" : "Purchase Related Expenditure",
+	"location" : "Financial Reports  >  Special Reports  >  Purchase Related Expenditure",
+	"reportFields" : ["Date", "Bill No", "Party Name", "Bill Amount", "RelExp", "TotAmt", "RelExp Name", "RelExp Amt"]																	
+},
+{
+	"reportName" : "Address List",
+	"location" : "Financial Reports  >  Special Reports  >  Address List  >  Account" 	
+},
+{
+	"reportName" : "Address List",
+	"location" : "Financial Reports  >  Special Reports  >  Address List  >  Type"	
+},
+{
+	"reportName" : "Address List",
+	"location" : "Financial Reports  >  Special Reports  >  Address List  >  Group"	
+},
+{
+	"reportName" : "Day to Day Totals",
+	"location" : "Financial Reports  >  Special Reports  >  Day to Day Totals",
+	"reportFields" : ["Date", "Receipts", "Payments", "Cls Balance", "Sign", "debit", "credit"]																	
+},
+{
+	"reportName" : "Receipts Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Receipts Morethan  >  Account",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]																			
+},
+{
+	"reportName" : "Receipts Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Receipts Morethan  >  Type",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]	
+},
+{
+	"reportName" : "Receipts Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Receipts Morethan  >  Group",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]
+},
+{
+	"reportName" : "Payments Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Payments Morethan  >  Account",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]
+},
+{
+	"reportName" : "Payments Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Payments Morethan  >  Type",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]
+},
+{
+	"reportName" : "Payments Morethan",
+	"location" : "Financial Reports  >  Special Reports  >  Payments Morethan  >  Group",
+	"reportFields" : ["bill Date", "Bill Date/Bill No", "Account Nmae", "town", "Net Amt"]
+},
+{
+	"reportName" : "Accounts Summary",
+	"location" : "Financial Reports  >  Special Reports  >  Accounts Summary  >  Account",
+	"reportFields" : ["Account Name", "Town", "Opening Balanace", "Debit", "Credit"]																		
+},
+{
+	"reportName" : "Accounts Summary",
+	"location" : "Financial Reports  >  Special Reports  >  Accounts Summary  >  Type",
+	"reportFields" : ["Account Name", "Town", "Opening Balanace", "Debit", "Credit"]
+},
+{
+	"reportName" : "Accounts Summary",
+	"location" : "Financial Reports  >  Special Reports  >  Accounts Summary  >  Group",
+	"reportFields" : ["Account Name", "Town", "Opening Balanace", "Debit", "Credit"]
+},
+{
+	"reportName" : "Opening Trail Balance",
+	"location" : "Financial Reports  >  Special Reports  >  Opening Trail Balance",
+	"reportFields" : ["Account Name", "Debit", "Credit"]																				
+},
+{
+	"reportName" : "GSTR 3B Excel",
+	"location" : "Financial Reports  >  GST Reports  >  GSTR 3B Excel",
+	"reportFields" : ["S No", "Particulars", "Taxable Value", "IGST Tax Amount", "CGST Tax Amount", "SGST Tax Amount", "Total tax Amount", "Cess Amount ", "Scrn Type"]															
+
+},
+{
+	"reportName" : "GSTR_1",
+	"location" : "Financial Reports  >  GST Reports  >  GSTR_1",
+	"reportFields" : ["Doc Id", "Tin No", "Act Name", "Invoice Number", "Invoice Date", "Invoice Value", "State Name", "Reverse Charge", "Invoice Type", "E-Commerce GSTIN", "Rate", "Taxable Value", "Cess Value", "LVLNO", "HID"]								
+},
+{
+	"reportName" : "GSTR_4",
+	"location" : "Financial Reports  >  GST Reports  >  GSTR_4",
+	"reportFields" : ["GST No", "Bill Series", "Invoice Number", "Invoice Date", "Invoice Value", "Place Of Supply", "Reverse Charge", "Invoice Type ", "E-Commerce GSTIn", "Rate", "Taxable Value", "IGST", "SGST", "CGST", "Cess Value", "LVLNO", "HID"]						
+},
+{
+	"reportName" : "GSTR 9 & 9C",
+	"location" : "Financial Reports  >  GST Reports  >  GSTR 9 & 9C",
+	"reportFields" : ["Excel Export"]																						
+},
+{
+	"reportName" : "GSTR 2A/2B Comparision",
+	"location" : "Financial Reports  >  GST Reports  >  GSTR 2A/2B Comparision",
+	"reportFields" : ["Import/Export excel"]																						
+},
+{
+	"reportName" : "Einvoice & Eway bill details",
+	"location" : "Financial Reports  >  GST Reports  >  Einvoice & Eway bill details  >  E-Invoice"	
+},
+{
+	"reportName" : "Einvoice & Eway bill details",
+	"location" : "Financial Reports  >  GST Reports  >  Einvoice & Eway bill details  >  E-Way bill"
+},
+{
+	"reportName" : "Einvoice & Eway bill details",
+	"location" : "Financial Reports  >  GST Reports  >  Einvoice & Eway bill details  >  Both"
+},
+{
+	"reportName" : "Agriculture Website",
+	"location" : "Financial Reports  >  Agriculture Website"																								
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Cancel"																								
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Get by Date"
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Get Details"
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Get by Parties"
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Consigner"
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Validity Extend"
+},
+{
+	"reportName" : "Eway bill Reports",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Reports  >  Reject"
+},
+{
+	"reportName" : "Eway bill",					
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill  >  Supplier"
+},
+{
+	"reportName" : "Eway bill",
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill  >  Customer"
+},
+{
+	"reportName" : "Transport setups",																									
+	"location" : "Financial Reports  >  EWay bills  >  Transport setups"
+},
+{
+	"reportName" : "Eway bill Master Setups",																										
+	"location" : "Financial Reports  >  EWay bills  >  Eway bill Master Setups"
+},
+{
+	"reportName" : "Einvoice Cancel", 																									
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Cancel"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Get by Date"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Get Details"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Get by Parties"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Consigner"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Validity Extend"
+},
+{
+	"reportName" : "Einvoice Cancel",
+	"location" : "Financial Reports  >  EWay bills  >  Einvoice Cancel  >  Reject"
+},
+{
+	"reportName" : "Salesmen wise Item Sales",	
+	"location" : "MIS Reports  >  Salesmen wise Item Sales  >  Detailed",
+	"reportFields" : ["Bill date", "Bill No", "Item Name", "Qty", "Rate", "Amount", "Rt. Qty", "Rt. Amount", "Total Amount"]														
+},
+{
+	"reportName" : "Salesmen wise Item Sales",
+	"location" : "MIS Reports  >  Salesmen wise Item Sales  >  Summary",
+	"reportFields" : ["Item Name", "Quantity", "Gross Amount", "Net Amount"]																				
+},
+{
+	"reportName" : "Current Year Zero Balance Accounts",
+	"location" : "MIS Reports  >  Current Year Zero Balance Accounts",
+	"reportFields" : ["S No", "Account Name", "Code", "Account Type", "Opening Balance", "Sign"]													
+},
+{
+	"reportName" : "No Transactions Accounts List",
+	"location" : "MIS Reports  >  No Transactions Accounts List",
+	"reportFields" : ["S No", "Account Name", "Code", "Account Type", "Opening Balance", "Sign"]
+},
+{
+	"reportName" : "Item Wise Profit & Loss Account",
+	"location" : "MIS Reports  >  Item Wise Profit & Loss Account",
+	"reportFields" : ["Item Name", "Batch No", "Qty", "Prate", "Total puramt", "Srate", "Total Sales"]																		
+},
+{
+	"reportName" : "Sales in a Period",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales in a Period",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Town", "Cash sale", "Credit Sale", "Other"]																	
+},
+{
+	"reportName" : "Sales in a Period Daily Summary",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales in a Period Daily Summary",
+	"reportFields" : ["Date", "Value"]																						
+},
+{
+	"reportName" : "Sales in a Period Monthly Summary",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales in a Period Monthly Summary",
+	"reportFields" : ["Bill Date", "Value"]																						
+},
+{
+	"reportName" : "Sales to a Customer Bill wise",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales to a Customer Bill wise",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Item Name", "Town", "Quantity", "Cash Sale", "Credit Sale", "Others Sales"]															
+},
+{
+	"reportName" : "Sales of an Item in a given Period",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales of an Item in a given Period",
+	"reportFields" : ["Item Name/Bill Date", "Item Pack", "Qty", "Total Amount"]																				
+},
+{
+	"reportName" : "Transaction type wise Sales",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Transaction type wise Sales",
+	"reportFields" : ["Item Name", "Item Pack", "Item Rate", "Qty", "Value"]																			
+},
+{
+	"reportName" : "Sales of a Selected Group / Item in a given Period",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales of a Selected Group / Item in a given Period",
+	"reportFields" : ["Item Name/Account Name", "Ph No", "Town", "Bill no", "Batch no", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]												
+},
+{
+	"reportName" : "Sales of a Selected Group / Item in a given Period",
+	"location" : "360 Degrees  >  Sales 360 Degrees  >  Sales of a Selected Group / Item in a given Period  >  Group wise Item Summary",
+	"reportFields" : ["Item Name/Account Name", "Ph No", "Town", "Bill no", "Batch no", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]												
+},{
+	"reportName" : "Purchase in a Period",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase in a Period",
+	"reportFields" : ["Bill No", "Bill Date", "Party Name", "Cash Purchase", "Credit Purchase", "Other Cash", "Other Bank", "Other Credit"]																
+},
+{
+	"reportName" : "Purchase in a Period Daily Summary",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase in a Period Daily Summary",
+	"reportFields" : ["Date", "Value"]																						
+},
+{
+	"reportName" : "Purchase in a Period Daily Summary",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase in a Period Daily Summary",
+	"reportFields" : ["Date", "Value"]																						
+},
+{
+	"reportName" : "Purchase in a Period Monthly Summary",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase in a Period Monthly Summary",
+	"reportFields" : ["Bill Date", "Value"]																						
+},
+{
+	"reportName" : "Purchase to a Supplier bill wise",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase to a Supplier bill wise",
+	"reportFields" : ["Bill Date", "Cash Purchase", "Credit Purchase", "Other Cash", "Other Bank", "Other Credit"]																		
+},
+{
+	"reportName" : "Purchase of a Item in a given Period",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Purchase of a Item in a given Period",
+	"reportFields" : ["Item Name/Bill Date", "Item Pack", "Qty", "Total Amount"]																				
+},
+{
+	"reportName" : "Transaction Type wise Purchase",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Transaction Type wise Purchase",
+	"reportFields" : ["Item Name", "Item Pack", "Item Rate", "Qty", "Value"]																		
+},
+{
+	"reportName" : "Puchase of a select Group/ Item in a given Period",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Puchase of a select Group/ Item in a given Period",
+	"reportFields" : ["Item Name/Account Name", "Bill Date", "Bill No", "Batch No", "MRP", "Qty", "Free", "Rate", "Gross Value", "Net Value"]													
+},
+{
+	"reportName" : "Purchase of a Item in a given Period",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Puchase of a select Group/ Item in a given Period  >  Group wise Item Summary",
+	"reportFields" : ["Item Name/Account Name", "Bill Date", "Bill No", "MRP", "Qty", "Free", "Rate", "Grose  value", "Net value"]															
+},
+{
+	"reportName" : "Supplier Vs Item Purchase",
+	"location" : "360 Degrees  >  Purchase 360 Degrees  >  Supplier Vs Item Purchase  >  Detailed",
+	"reportFields" : ["BIll NO", "Bill Date", "Tot Qty", "Taxable Amount", "Tax Amount", "Tot Value"]																	
+},
+{
+	"reportName" : "Single Item 360 Degrees",
+	"location" : "360 Degrees  >  Item 360 degrees (New)  >  Single Item 360 Degrees  >  Name",
+	"reportFields" : ["Exception Error"]																						
+},
+{
+	"reportName" : "Stock report",
+	"location" : "360 Degrees  >  Item 360 degrees (New)  >  Stock report",
+	"reportFields" : ["Item Name/Item Group", "Opening Bal", "Purchases", " Sales Return", "Total Stock", "Sales", "Pur Returns", "Damage", "Closing Stock"]														
+},
+{
+	"reportName" : "Customer Vs Items Sales Report",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Vs Items Sales Report  >  Summary",
+	"reportFields" : ["Item Name", "Qty", "Return Qty", "Total Qty", "Value", "Rate Value", "Tot Value", "Tot Bills", "Ret. Bills"]															
+},
+{
+	"reportName" : "Customer Vs Items Sales Report",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Vs Items Sales Report  >  Detailed",
+	"reportFields" : ["Bill NO", "Bill Date", "Total Qty", "Taxable Amount", "Tax Amount", "Tot Value"]																		
+},
+{
+	"reportName" : "Customer Monthly Sales Summary",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Monthly Sales Summary",
+	"reportFields" : ["Temp_name", "Temp_Name 1", "April_Val to March_Val"]																					
+},
+{
+	"reportName" : "Customer Vs. Items Sales with Zooming",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Vs. Items Sales with Zooming",
+	"reportFields" : ["Temp_name", "Temp_Name 1", "April_Val to March_Val"]
+},
+{
+	"reportName" : "Customer Vs Items Group wise Sales",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Vs Items Group wise Sales  >  Detailed",
+	"reportFields" : ["Temp_name", "Temp_Name 1", "April_Val to March_Val"]
+},
+{
+	"reportName" : "Customer Vs Items Group wise Sales",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  Customer Vs Items Group wise Sales  >  Summary",
+	"reportFields" : ["Item Name", "Total Qty", "Tot Value", "Tot Bills"]																				
+},
+{
+	"reportName" : "TCS Collection for Customer Sales Summary",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  TCS Collection for Customer Sales Summary  >  Customer",
+	"reportFields" : ["Party Name", "Taxable Amt", "TaxAmt", "Net Amt"]																				
+},
+{
+	"reportName" : "TCS Collection for Customer Sales Summary",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  TCS Collection for Customer Sales Summary  >  Supplier",
+	"reportFields" : ["Party Name", "Taxable Amt", "TaxAmt", "Net Amt"]																				
+},
+{
+	"reportName" : "TCS Collection month wise",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  TCS Collection month wise  >  Customer",
+	"reportFields" : ["Actname", "April -June Sales", "April-June TCS Taxable", "April-June TCS Value"]																				
+},
+{
+	"reportName" : "TCS Collection month wise",
+	"location" : "360 Degrees  >  Customer 360 degrees (New)  >  TCS Collection Month wise  >  Supplier",
+	"reportFields" : ["Actname", "April -June Sales", "April-June TCS Taxable", "April-June TCS Value"]																				
+},
+{
+	"reportName" : "Item wise Trading Account (New)",
+	"location" : "360 Degrees  >  Item wise Trading Account (New)",
+	"reportFields" : ["Item Name", "Opening BAGS | Amount", "PURCHASE BAGS | Amount", "SALE BAGS | Amount", "CLOSING BAGS | Rate | Amount", "PROFIT", "Loss"]																
+},
+{
+	"reportName" : "Item wise Trading Account (New)",
+	"location" : "360 Degrees  >  Item wise Trading Account (New)  >  Company wise closing Stock Value",
+	"reportFields" : ["Item Name", "Opening BAGS | Amount", "PURCHASEBAGS | Amount", "SALE BAGS | Amount", "CLOSING BAGS | Rate | Amount", "PROFIT", "Loss"]																	
+}
+]
