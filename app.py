@@ -36,7 +36,6 @@ CATEGORY_INDEXES = {
 # Updated prompt to ensure all results are returned
 prompt_template = """
 You are a helpful assistant. Based on the context from the retrieved documents,
-find ALL report names that contain ALL of the following fields: "Account Name", "Debit", and "Credit".
 List every matching report name without omitting any.
 If multiple matches exist, return them as a bullet list.
 Context:
