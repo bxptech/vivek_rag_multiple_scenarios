@@ -66,7 +66,7 @@ def query_category(category, query):
         return f"❌ No index found for {category}. Please build it first."
 
     db = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
-    retriever = db.as_retriever(search_kwargs={"k": 25})  # Increased recall
+    retriever = db.as_retriever(search_kwargs={"k": 35})  # Increased recall
 
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
